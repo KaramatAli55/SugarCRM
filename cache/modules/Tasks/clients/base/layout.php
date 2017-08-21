@@ -80,9 +80,18 @@ $clientCache['Tasks']['base']['layout'] = array (
             'link' => 'notes',
           ),
         ),
+        1 => 
+        array (
+          'layout' => 'subpanel',
+          'label' => 'LBL_Task_SUBPANEL_TITLE',
+          'context' => 
+          array (
+            'link' => 'Opportunitie_link',
+          ),
+        ),
       ),
     ),
   ),
-  '_hash' => '04270bdd7bdfa80c301fee25c42813ad',
+  '_hash' => '453ee8c6aea965991ff12dc14632a45f',
 );
 

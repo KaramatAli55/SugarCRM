@@ -152,6 +152,15 @@ $clientCache['Opportunities']['base']['layout'] = array (
             'link' => 'project',
           ),
         ),
+        12 => 
+        array (
+          'layout' => 'subpanel',
+          'label' => 'LBL_Task_SUBPANEL_TITLE',
+          'context' => 
+          array (
+            'link' => 'Task_link',
+          ),
+        ),
       ),
     ),
   ),
@@ -330,6 +339,6 @@ $clientCache['Opportunities']['base']['layout'] = array (
       'span' => 12,
     ),
   ),
-  '_hash' => 'd6b6fa07f7888a0f6b3937ef05f7fa4e',
+  '_hash' => 'd8d2c637577ae803c37e6321a03d59ad',
 );
 

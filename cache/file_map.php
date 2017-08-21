@@ -1,5 +1,5 @@
 <?php
-// created: 2017-08-18 12:31:52
+// created: 2017-08-21 12:48:07
 $existing_files = array (
   'mobile.php' => 1,
   'campaign_tracker.php' => 1,
@@ -23582,6 +23582,7 @@ $existing_files = array (
     ),
     'metadata' => 
     array (
+      'oppurnities_task.php' => 1,
     ),
     'modules' => 
     array (
@@ -23616,13 +23617,76 @@ $existing_files = array (
           ),
         ),
       ),
+      'Cases' => 
+      array (
+        'Ext' => 
+        array (
+          'Vardefs' => 
+          array (
+            'vardefs.ext.php' => 1,
+          ),
+        ),
+        'clients' => 
+        array (
+          'base' => 
+          array (
+            'views' => 
+            array (
+              'record' => 
+              array (
+                'record.php' => 1,
+              ),
+            ),
+          ),
+        ),
+      ),
+      'Accounts' => 
+      array (
+        'Ext' => 
+        array (
+          'Vardefs' => 
+          array (
+            'vardefs.ext.php' => 1,
+          ),
+          'clients' => 
+          array (
+            'base' => 
+            array (
+              'layouts' => 
+              array (
+                'subpanels' => 
+                array (
+                  'subpanels.ext.php' => 1,
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
       'Opportunities' => 
       array (
         'Ext' => 
         array (
+          'Vardefs' => 
+          array (
+            'vardefs.ext.php' => 1,
+          ),
           'LogicHooks' => 
           array (
             'logichooks.ext.php' => 1,
+          ),
+          'clients' => 
+          array (
+            'base' => 
+            array (
+              'layouts' => 
+              array (
+                'subpanels' => 
+                array (
+                  'subpanels.ext.php' => 1,
+                ),
+              ),
+            ),
           ),
         ),
       ),
@@ -23678,6 +23742,29 @@ $existing_files = array (
           'LogicHooks' => 
           array (
             'logichooks.ext.php' => 1,
+          ),
+        ),
+      ),
+      'Tasks' => 
+      array (
+        'Ext' => 
+        array (
+          'Vardefs' => 
+          array (
+            'vardefs.ext.php' => 1,
+          ),
+          'clients' => 
+          array (
+            'base' => 
+            array (
+              'layouts' => 
+              array (
+                'subpanels' => 
+                array (
+                  'subpanels.ext.php' => 1,
+                ),
+              ),
+            ),
           ),
         ),
       ),
@@ -23872,6 +23959,825 @@ $existing_files = array (
   ),
   'queueManager.php' => 1,
   'process_queue.php' => 1,
+  '.git' => 
+  array (
+    'logs' => 
+    array (
+      'refs' => 
+      array (
+        'remotes' => 
+        array (
+          'origin' => 
+          array (
+          ),
+        ),
+        'heads' => 
+        array (
+        ),
+      ),
+    ),
+    'hooks' => 
+    array (
+    ),
+    'objects' => 
+    array (
+      56 => 
+      array (
+      ),
+      72 => 
+      array (
+      ),
+      '7b' => 
+      array (
+      ),
+      29 => 
+      array (
+      ),
+      'e9' => 
+      array (
+      ),
+      '4d' => 
+      array (
+      ),
+      'ba' => 
+      array (
+      ),
+      86 => 
+      array (
+      ),
+      63 => 
+      array (
+      ),
+      'b5' => 
+      array (
+      ),
+      67 => 
+      array (
+      ),
+      'fb' => 
+      array (
+      ),
+      41 => 
+      array (
+      ),
+      'c9' => 
+      array (
+      ),
+      '8f' => 
+      array (
+      ),
+      51 => 
+      array (
+      ),
+      73 => 
+      array (
+      ),
+      'ef' => 
+      array (
+      ),
+      '9c' => 
+      array (
+      ),
+      'f4' => 
+      array (
+      ),
+      'dc' => 
+      array (
+      ),
+      'pack' => 
+      array (
+      ),
+      58 => 
+      array (
+      ),
+      25 => 
+      array (
+      ),
+      'ed' => 
+      array (
+      ),
+      'a9' => 
+      array (
+      ),
+      '6e' => 
+      array (
+      ),
+      '1e' => 
+      array (
+      ),
+      '01' => 
+      array (
+      ),
+      61 => 
+      array (
+      ),
+      '06' => 
+      array (
+      ),
+      '3c' => 
+      array (
+      ),
+      'd8' => 
+      array (
+      ),
+      '5e' => 
+      array (
+      ),
+      '8d' => 
+      array (
+      ),
+      'b0' => 
+      array (
+      ),
+      '09' => 
+      array (
+      ),
+      42 => 
+      array (
+      ),
+      '2a' => 
+      array (
+      ),
+      76 => 
+      array (
+      ),
+      'aa' => 
+      array (
+      ),
+      '0c' => 
+      array (
+      ),
+      'ea' => 
+      array (
+      ),
+      52 => 
+      array (
+      ),
+      48 => 
+      array (
+      ),
+      '0f' => 
+      array (
+      ),
+      92 => 
+      array (
+      ),
+      'fa' => 
+      array (
+      ),
+      '6a' => 
+      array (
+      ),
+      '1d' => 
+      array (
+      ),
+      35 => 
+      array (
+      ),
+      97 => 
+      array (
+      ),
+      33 => 
+      array (
+      ),
+      'f7' => 
+      array (
+      ),
+      'd5' => 
+      array (
+      ),
+      62 => 
+      array (
+      ),
+      'e0' => 
+      array (
+      ),
+      10 => 
+      array (
+      ),
+      'ce' => 
+      array (
+      ),
+      98 => 
+      array (
+      ),
+      'a8' => 
+      array (
+      ),
+      75 => 
+      array (
+      ),
+      'a0' => 
+      array (
+      ),
+      'dd' => 
+      array (
+      ),
+      '03' => 
+      array (
+      ),
+      'a5' => 
+      array (
+      ),
+      'b2' => 
+      array (
+      ),
+      '6f' => 
+      array (
+      ),
+      16 => 
+      array (
+      ),
+      'ac' => 
+      array (
+      ),
+      '8c' => 
+      array (
+      ),
+      37 => 
+      array (
+      ),
+      'cb' => 
+      array (
+      ),
+      'e3' => 
+      array (
+      ),
+      'e1' => 
+      array (
+      ),
+      94 => 
+      array (
+      ),
+      12 => 
+      array (
+      ),
+      'be' => 
+      array (
+      ),
+      93 => 
+      array (
+      ),
+      18 => 
+      array (
+      ),
+      31 => 
+      array (
+      ),
+      13 => 
+      array (
+      ),
+      47 => 
+      array (
+      ),
+      'c0' => 
+      array (
+      ),
+      83 => 
+      array (
+      ),
+      '3b' => 
+      array (
+      ),
+      'e2' => 
+      array (
+      ),
+      'e8' => 
+      array (
+      ),
+      'ad' => 
+      array (
+      ),
+      '7c' => 
+      array (
+      ),
+      '02' => 
+      array (
+      ),
+      'b1' => 
+      array (
+      ),
+      'c6' => 
+      array (
+      ),
+      'fe' => 
+      array (
+      ),
+      69 => 
+      array (
+      ),
+      'd7' => 
+      array (
+      ),
+      'd0' => 
+      array (
+      ),
+      'df' => 
+      array (
+      ),
+      77 => 
+      array (
+      ),
+      '3e' => 
+      array (
+      ),
+      17 => 
+      array (
+      ),
+      'b4' => 
+      array (
+      ),
+      '7e' => 
+      array (
+      ),
+      '4b' => 
+      array (
+      ),
+      '2f' => 
+      array (
+      ),
+      89 => 
+      array (
+      ),
+      'ae' => 
+      array (
+      ),
+      'd4' => 
+      array (
+      ),
+      '2d' => 
+      array (
+      ),
+      '4f' => 
+      array (
+      ),
+      'bf' => 
+      array (
+      ),
+      46 => 
+      array (
+      ),
+      'd1' => 
+      array (
+      ),
+      70 => 
+      array (
+      ),
+      66 => 
+      array (
+      ),
+      'd6' => 
+      array (
+      ),
+      74 => 
+      array (
+      ),
+      'ec' => 
+      array (
+      ),
+      '7a' => 
+      array (
+      ),
+      28 => 
+      array (
+      ),
+      '3a' => 
+      array (
+      ),
+      'a6' => 
+      array (
+      ),
+      38 => 
+      array (
+      ),
+      90 => 
+      array (
+      ),
+      '05' => 
+      array (
+      ),
+      64 => 
+      array (
+      ),
+      'f8' => 
+      array (
+      ),
+      23 => 
+      array (
+      ),
+      '2e' => 
+      array (
+      ),
+      '8a' => 
+      array (
+      ),
+      36 => 
+      array (
+      ),
+      60 => 
+      array (
+      ),
+      'a3' => 
+      array (
+      ),
+      '08' => 
+      array (
+      ),
+      '4e' => 
+      array (
+      ),
+      '04' => 
+      array (
+      ),
+      '9d' => 
+      array (
+      ),
+      '5f' => 
+      array (
+      ),
+      20 => 
+      array (
+      ),
+      99 => 
+      array (
+      ),
+      57 => 
+      array (
+      ),
+      'c4' => 
+      array (
+      ),
+      40 => 
+      array (
+      ),
+      26 => 
+      array (
+      ),
+      'c5' => 
+      array (
+      ),
+      'de' => 
+      array (
+      ),
+      'd2' => 
+      array (
+      ),
+      '8e' => 
+      array (
+      ),
+      'a1' => 
+      array (
+      ),
+      '00' => 
+      array (
+      ),
+      'fd' => 
+      array (
+      ),
+      'f1' => 
+      array (
+      ),
+      82 => 
+      array (
+      ),
+      '1c' => 
+      array (
+      ),
+      '8b' => 
+      array (
+      ),
+      32 => 
+      array (
+      ),
+      '4a' => 
+      array (
+      ),
+      95 => 
+      array (
+      ),
+      'ee' => 
+      array (
+      ),
+      'c1' => 
+      array (
+      ),
+      85 => 
+      array (
+      ),
+      71 => 
+      array (
+      ),
+      'eb' => 
+      array (
+      ),
+      39 => 
+      array (
+      ),
+      '0d' => 
+      array (
+      ),
+      19 => 
+      array (
+      ),
+      'b9' => 
+      array (
+      ),
+      54 => 
+      array (
+      ),
+      'f5' => 
+      array (
+      ),
+      '4c' => 
+      array (
+      ),
+      87 => 
+      array (
+      ),
+      '9e' => 
+      array (
+      ),
+      'a7' => 
+      array (
+      ),
+      34 => 
+      array (
+      ),
+      15 => 
+      array (
+      ),
+      96 => 
+      array (
+      ),
+      'b3' => 
+      array (
+      ),
+      65 => 
+      array (
+      ),
+      '5c' => 
+      array (
+      ),
+      'bd' => 
+      array (
+      ),
+      'd3' => 
+      array (
+      ),
+      '2c' => 
+      array (
+      ),
+      'af' => 
+      array (
+      ),
+      '5d' => 
+      array (
+      ),
+      '2b' => 
+      array (
+      ),
+      'bc' => 
+      array (
+      ),
+      '1a' => 
+      array (
+      ),
+      '6b' => 
+      array (
+      ),
+      'fc' => 
+      array (
+      ),
+      55 => 
+      array (
+      ),
+      'e5' => 
+      array (
+      ),
+      'db' => 
+      array (
+      ),
+      'b6' => 
+      array (
+      ),
+      'f3' => 
+      array (
+      ),
+      50 => 
+      array (
+      ),
+      'b8' => 
+      array (
+      ),
+      'c8' => 
+      array (
+      ),
+      'f0' => 
+      array (
+      ),
+      'd9' => 
+      array (
+      ),
+      '5b' => 
+      array (
+      ),
+      'f9' => 
+      array (
+      ),
+      '3f' => 
+      array (
+      ),
+      'cc' => 
+      array (
+      ),
+      'c2' => 
+      array (
+      ),
+      'bb' => 
+      array (
+      ),
+      '07' => 
+      array (
+      ),
+      59 => 
+      array (
+      ),
+      '3d' => 
+      array (
+      ),
+      'a2' => 
+      array (
+      ),
+      '9b' => 
+      array (
+      ),
+      44 => 
+      array (
+      ),
+      '6c' => 
+      array (
+      ),
+      84 => 
+      array (
+      ),
+      '0b' => 
+      array (
+      ),
+      27 => 
+      array (
+      ),
+      '1b' => 
+      array (
+      ),
+      24 => 
+      array (
+      ),
+      'cd' => 
+      array (
+      ),
+      78 => 
+      array (
+      ),
+      '0a' => 
+      array (
+      ),
+      49 => 
+      array (
+      ),
+      79 => 
+      array (
+      ),
+      68 => 
+      array (
+      ),
+      80 => 
+      array (
+      ),
+      'f6' => 
+      array (
+      ),
+      14 => 
+      array (
+      ),
+      22 => 
+      array (
+      ),
+      '1f' => 
+      array (
+      ),
+      30 => 
+      array (
+      ),
+      'cf' => 
+      array (
+      ),
+      'e4' => 
+      array (
+      ),
+      'c7' => 
+      array (
+      ),
+      91 => 
+      array (
+      ),
+      '9a' => 
+      array (
+      ),
+      '7f' => 
+      array (
+      ),
+      'b7' => 
+      array (
+      ),
+      21 => 
+      array (
+      ),
+      'info' => 
+      array (
+      ),
+      11 => 
+      array (
+      ),
+      'c3' => 
+      array (
+      ),
+      '5a' => 
+      array (
+      ),
+      'e6' => 
+      array (
+      ),
+      'ff' => 
+      array (
+      ),
+      'ca' => 
+      array (
+      ),
+      53 => 
+      array (
+      ),
+      'a4' => 
+      array (
+      ),
+      'e7' => 
+      array (
+      ),
+      '6d' => 
+      array (
+      ),
+      81 => 
+      array (
+      ),
+      '7d' => 
+      array (
+      ),
+      'da' => 
+      array (
+      ),
+      'f2' => 
+      array (
+      ),
+      'ab' => 
+      array (
+      ),
+      '9f' => 
+      array (
+      ),
+      45 => 
+      array (
+      ),
+      88 => 
+      array (
+      ),
+      '0e' => 
+      array (
+      ),
+      43 => 
+      array (
+      ),
+    ),
+    'info' => 
+    array (
+    ),
+    'branches' => 
+    array (
+    ),
+    'refs' => 
+    array (
+      'remotes' => 
+      array (
+        'origin' => 
+        array (
+        ),
+      ),
+      'heads' => 
+      array (
+      ),
+      'tags' => 
+      array (
+      ),
+    ),
+  ),
   'ModuleInstall' => 
   array (
     'PackageManager' => 

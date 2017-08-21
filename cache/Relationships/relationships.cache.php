@@ -12870,6 +12870,17 @@
     'rhs_key' => 'team_id',
     'relationship_type' => 'one-to-many',
   ),
+  'Accounts_Cases' => 
+  array (
+    'name' => 'Accounts_Cases',
+    'lhs_module' => 'Cases',
+    'lhs_table' => 'cases',
+    'lhs_key' => 'acc_id',
+    'rhs_module' => 'Accounts',
+    'rhs_table' => 'accounts',
+    'rhs_key' => 'account_type',
+    'relationship_type' => 'one-to-many',
+  ),
   'projects_notes' => 
   array (
     'name' => 'projects_notes',

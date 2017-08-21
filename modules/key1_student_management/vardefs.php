@@ -46,7 +46,6 @@ $dictionary['key1_student_management'] = array(
     'size' => '20',
     'enable_range_search' => false,
     'disable_num_format' => '',
-    'min' => false,
     'max' => false,
   ),
   'contacts' =>

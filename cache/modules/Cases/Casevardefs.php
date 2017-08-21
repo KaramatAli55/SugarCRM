@@ -809,6 +809,40 @@
       'studio' => 'false',
       'reportable' => false,
     ),
+    'account_type' => 
+    array (
+      'required' => false,
+      'source' => 'non-db',
+      'name' => 'account_type',
+      'vname' => 'LBL_ACCOUNT_TYPE',
+      'type' => 'relate',
+      'rname' => 'name',
+      'id_name' => 'acc_id',
+      'link' => 'Accounts_link',
+      'isnull' => 'true',
+    ),
+    'acc_id' => 
+    array (
+      'name' => 'acc_id',
+      'vname' => 'LBL_ACC_ID',
+      'type' => 'id',
+      'isnull' => 'true',
+      'dbType' => 'id',
+      'reportable' => false,
+      'massupdate' => false,
+      'duplicate_merge' => 'disabled',
+      'link' => 'Accounts_link',
+    ),
+    'Accounts_link' => 
+    array (
+      'name' => 'Accounts_link',
+      'type' => 'link',
+      'relationship' => 'Accounts_Cases',
+      'module' => 'Accounts',
+      'bean_name' => 'Accounts',
+      'source' => 'non-db',
+      'vname' => 'LBL_SUBSCRIBERS',
+    ),
   ),
   'indices' => 
   array (
@@ -1114,6 +1148,16 @@
       'rhs_module' => 'Cases',
       'rhs_table' => 'cases',
       'rhs_key' => 'team_id',
+      'relationship_type' => 'one-to-many',
+    ),
+    'Accounts_Cases' => 
+    array (
+      'lhs_module' => 'Cases',
+      'lhs_table' => 'cases',
+      'lhs_key' => 'acc_id',
+      'rhs_module' => 'Accounts',
+      'rhs_table' => 'accounts',
+      'rhs_key' => 'account_type',
       'relationship_type' => 'one-to-many',
     ),
   ),

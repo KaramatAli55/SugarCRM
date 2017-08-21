@@ -1,5 +1,5 @@
 <?php
-// created: 2017-08-18 12:31:55
+// created: 2017-08-21 12:48:10
 $mod_strings = array (
   'LBL_MODULE_NAME' => 'Workflow Definitions',
   'LBL_MODULE_NAME_SINGULAR' => 'Workflow Definition',
