@@ -1,5 +1,5 @@
 <?php
-// created: 2017-08-21 12:48:07
+// created: 2017-08-23 14:32:43
 $existing_files = array (
   'mobile.php' => 1,
   'campaign_tracker.php' => 1,
@@ -23690,10 +23690,44 @@ $existing_files = array (
           ),
         ),
       ),
-      'key1_student_management' => 
+      'Schedulers' => 
       array (
         'Ext' => 
         array (
+          'Language' => 
+          array (
+            'en_us.lang.ext.php' => 1,
+          ),
+        ),
+      ),
+      'key1_student_management' => 
+      array (
+        'views' => 
+        array (
+          'view.example.php' => 1,
+        ),
+        'Ext' => 
+        array (
+          'Language' => 
+          array (
+            'en_us.lang.ext.php' => 1,
+          ),
+          'Vardefs' => 
+          array (
+            'vardefs.ext.php' => 1,
+          ),
+          'ActionFileMap' => 
+          array (
+            'action_file_map.ext.php' => 1,
+          ),
+          'ActionViewMap' => 
+          array (
+            'action_view_map.ext.php' => 1,
+          ),
+          'ActionReMap' => 
+          array (
+            'action_remap.ext.php' => 1,
+          ),
           'clients' => 
           array (
             'base' => 
@@ -23704,6 +23738,20 @@ $existing_files = array (
                 array (
                   'subpanels.ext.php' => 1,
                 ),
+              ),
+            ),
+          ),
+        ),
+        'example_action.php' => 1,
+        'clients' => 
+        array (
+          'base' => 
+          array (
+            'views' => 
+            array (
+              'record' => 
+              array (
+                'record.php' => 1,
               ),
             ),
           ),
@@ -23768,6 +23816,20 @@ $existing_files = array (
           ),
         ),
       ),
+      'Administration' => 
+      array (
+        'Ext' => 
+        array (
+          'Language' => 
+          array (
+            'en_us.lang.ext.php' => 1,
+          ),
+          'Administration' => 
+          array (
+            'administration.ext.php' => 1,
+          ),
+        ),
+      ),
       'Forecasts' => 
       array (
         'Ext' => 
@@ -23805,6 +23867,49 @@ $existing_files = array (
         'Language' => 
         array (
           'en_us.lang.ext.php' => 1,
+          'bg_BG.lang.ext.php' => 1,
+          'cs_CZ.lang.ext.php' => 1,
+          'da_DK.lang.ext.php' => 1,
+          'de_DE.lang.ext.php' => 1,
+          'el_EL.lang.ext.php' => 1,
+          'es_ES.lang.ext.php' => 1,
+          'fr_FR.lang.ext.php' => 1,
+          'he_IL.lang.ext.php' => 1,
+          'hu_HU.lang.ext.php' => 1,
+          'it_it.lang.ext.php' => 1,
+          'lt_LT.lang.ext.php' => 1,
+          'ja_JP.lang.ext.php' => 1,
+          'ko_KR.lang.ext.php' => 1,
+          'lv_LV.lang.ext.php' => 1,
+          'nb_NO.lang.ext.php' => 1,
+          'nl_NL.lang.ext.php' => 1,
+          'pl_PL.lang.ext.php' => 1,
+          'pt_PT.lang.ext.php' => 1,
+          'ro_RO.lang.ext.php' => 1,
+          'ru_RU.lang.ext.php' => 1,
+          'sv_SE.lang.ext.php' => 1,
+          'tr_TR.lang.ext.php' => 1,
+          'zh_TW.lang.ext.php' => 1,
+          'zh_CN.lang.ext.php' => 1,
+          'pt_BR.lang.ext.php' => 1,
+          'ca_ES.lang.ext.php' => 1,
+          'en_UK.lang.ext.php' => 1,
+          'sr_RS.lang.ext.php' => 1,
+          'sk_SK.lang.ext.php' => 1,
+          'sq_AL.lang.ext.php' => 1,
+          'et_EE.lang.ext.php' => 1,
+          'es_LA.lang.ext.php' => 1,
+          'fi_FI.lang.ext.php' => 1,
+          'ar_SA.lang.ext.php' => 1,
+          'uk_UA.lang.ext.php' => 1,
+        ),
+        'Console' => 
+        array (
+          'console.ext.php' => 1,
+        ),
+        'ScheduledTasks' => 
+        array (
+          'scheduledtasks.ext.php' => 1,
         ),
         'TableDictionary' => 
         array (
@@ -23822,6 +23927,16 @@ $existing_files = array (
     ),
     'Extension' => 
     array (
+    ),
+    'src' => 
+    array (
+      'Console' => 
+      array (
+        'Command' => 
+        array (
+          'hello_world_command.php' => 1,
+        ),
+      ),
     ),
     'working' => 
     array (

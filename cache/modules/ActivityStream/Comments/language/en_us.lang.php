@@ -1,5 +1,5 @@
 <?php
-// created: 2017-08-18 09:46:07
+// created: 2017-08-23 15:00:29
 $mod_strings = array (
   'LBL_TAGS_LINK' => 'Tags',
   'LBL_TAGS' => 'Tags',

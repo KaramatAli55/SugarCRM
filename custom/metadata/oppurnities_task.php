@@ -1,7 +1,7 @@
 <?php
 
-$dictionary['Opportunitie_Task'] = array (
-    'table' => 'opportunitie_Tasks',
+$dictionary['Opportunitie_Tasks'] = array (
+    'table' => 'Opportunitie_Tasks',
     'fields' => array (
         'id' => array (
             'name' => 'id',

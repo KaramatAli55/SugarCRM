@@ -6675,6 +6675,20 @@
     'true_relationship_type' => 'many-to-many',
     'primary_flag_column' => 'zeroflag',
   ),
+  'Opportunitie_Task' => 
+  array (
+    'name' => 'Opportunitie_Task',
+    'lhs_module' => 'Tasks',
+    'lhs_table' => 'tasks',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Opportunities',
+    'rhs_table' => 'opportunities',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'Opportunities_Tasks',
+    'join_key_lhs' => 'task_id',
+    'join_key_rhs' => 'opportunitie_id',
+  ),
   'user_direct_reports' => 
   array (
     'name' => 'user_direct_reports',

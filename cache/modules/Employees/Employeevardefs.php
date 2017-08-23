@@ -1409,8 +1409,8 @@
     'SugarACLStatic' => true,
   ),
   'custom_fields' => false,
+  'full_text_search' => true,
   'related_calc_fields' => 
   array (
   ),
-  'full_text_search' => true,
 );

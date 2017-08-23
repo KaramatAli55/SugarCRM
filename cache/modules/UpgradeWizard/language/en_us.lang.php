@@ -1,5 +1,5 @@
 <?php
-// created: 2017-08-21 12:48:10
+// created: 2017-08-23 14:57:58
 $mod_strings = array (
   'DESC_MODULES_INSTALLED' => 'The following modules have been installed:',
   'DESC_MODULES_QUEUED' => 'The following modules are ready to be installed:',

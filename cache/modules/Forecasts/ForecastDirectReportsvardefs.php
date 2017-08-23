@@ -131,6 +131,7 @@
       'source' => 'non-db',
     ),
   ),
+  'custom_fields' => false,
   'related_calc_fields' => 
   array (
   ),

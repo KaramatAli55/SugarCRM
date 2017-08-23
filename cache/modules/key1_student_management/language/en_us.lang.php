@@ -1,5 +1,5 @@
 <?php
-// created: 2017-08-21 12:48:06
+// created: 2017-08-23 15:07:22
 $mod_strings = array (
   'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
   'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
@@ -53,4 +53,11 @@ $mod_strings = array (
   'LBL_STUDENT_ADDRESS' => 'student address',
   'LBL_STUDENT_CONTACT' => 'student contact',
   'LBL_COURSEIDFK' => 'courseIdFk',
+  'LBL_SHOW_CITY' => 'show city',
+  'LBL_SHOW_CITY_FIELD' => 'show city field',
+  'LBL_WORKING_EXPERIWNCE' => 'working experience',
+  'LBL_COMPANY_NAME' => 'company name',
+  'LBL_CITIES' => 'cities',
+  'LBL_CITIES1' => 'cities1',
+  'LBL_VILLAGES' => 'villages',
 );

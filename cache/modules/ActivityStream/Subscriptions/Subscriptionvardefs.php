@@ -496,4 +496,5 @@
   'related_calc_fields' => 
   array (
   ),
+  'custom_fields' => false,
 );

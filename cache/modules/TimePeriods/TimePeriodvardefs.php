@@ -215,7 +215,4 @@
     ),
   ),
   'custom_fields' => false,
-  'related_calc_fields' => 
-  array (
-  ),
 );

@@ -1,5 +1,5 @@
 <?php
-// created: 2017-08-21 12:48:06
+// created: 2017-08-23 14:57:56
 $mod_strings = array (
   'LBL_TAGS_LINK' => 'Tags',
   'LBL_TAGS' => 'Tags',
@@ -147,4 +147,5 @@ To quit, type \'quit\'.  To shutdown the service \'shutdown\'.
   'LBL_SENDEMAILREMINDERS' => 'Run Email Reminders Sending',
   'LBL_CLEANJOBQUEUE' => 'Cleanup Job Queue',
   'LBL_CLEANOLDRECORDLISTS' => 'Cleanup Old Record Lists',
+  'LBL_CUSTOM_JOB' => 'My Nice Custom Job Language String',
 );
